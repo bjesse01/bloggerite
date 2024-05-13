@@ -8,7 +8,7 @@ export const Header = () => {
         <div className="logo">
           <Link to="/">
             <h2 className="font-bold text-xl md:text-2xl lg:text-3xl">
-              Choco's Blog
+              Chizzy Blog
             </h2>
           </Link>
         </div>

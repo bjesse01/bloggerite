@@ -6,7 +6,7 @@ export const Homepage = () => {
     <div>
       <section className="flex flex-col items-center justify-center text-center h-screen">
         <h1 className="uppercase font-bold text-4xl tracking-wide mb-5 md:text-6xl lg:text-8xl">
-          Choco's Blog
+          Chizzy Blog
         </h1>
         <button>
           <Link

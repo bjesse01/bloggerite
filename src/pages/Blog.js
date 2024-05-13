@@ -38,6 +38,7 @@ export const Blog = () => {
           {posts.map((post) => (
             <article key={post.slug.current}>
               <img
+                className="rounded-md"
                 src={post.mainImage.asset.url}
                 alt={post.title}
                 // style={{ height: "200px", width: "100%" }}

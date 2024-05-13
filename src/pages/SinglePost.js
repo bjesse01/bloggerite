@@ -21,7 +21,8 @@ export const SinglePost = () => {
             url
           },
           alt
-        }
+        },
+        "name": author->name,
       }`
       )
       .then((data) => setSinglePost(data[0]));
@@ -42,11 +43,11 @@ export const SinglePost = () => {
               src={singlePost.mainImage.asset.url}
               alt={singlePost.title}
               title={singlePost.title}
-              className="blog__image rounded-t"
+              className="blog__image rounded-md"
             />
           )}
 
-          <p>By Bernardson Jesse</p>
+          <p>By {singlePost.name}</p>
 
           <div className="block__content">
             <BlockContent
